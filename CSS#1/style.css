@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#header1 {
+    text-align: center;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#header2 {
+    text-align: center;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#header1 a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+
+#header2 a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+}
+
+.navbar {
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar2 {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar ul {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.navbar2 ul {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.navbar ul li {
+    display: inline; /* here */
+    margin-left: 40px;
+    padding-right: 50px;
+}
+
+.navbar2 ul li {
+    display: inline; /* here */
+    margin-left: 40px;
+    padding-right: 50px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    justify-content: space-between;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar2 ul li a {
+    text-decoration: none;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar ul li a:hover {
+    color: rgb(153, 117, 0);
+}
+
+.navbar2 ul li a:hover {
+    color: rgb(153, 117, 0);
+}
+
+.contents {
+    width: 100%;
+    height: 509px;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/back.jpg!d);
+}
+
+section .hi {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+    color:#fff;
+    margin: 230px;
+}
+
+#contents2 {
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/frontend.jpeg);
+}
+
+#contents3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/back4.png);
+}
+
+#background {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/frontend.jpeg);
+}
+
+.aboutme img {
+    float: left;
+    padding: 50px;
+    border-radius: 100px;
+}
+
+.aboutme p {
+    padding-top: 50px;
+    color: #fff;
+}
+
+.aboutme2 img {
+    float: left;
+    padding: 50px;
+    border-radius: 100px;
+}
+
+.aboutme2 p {
+    padding-top: 50px;
+    color: #fff;
+}
+
+.song {
+    padding-bottom: 30px;
+}
+
+.song, .game, .color h3 {
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: #fff;
+}
+
+.song img {
+    border-radius: 80px;
+    padding-bottom: 15px;
+}
+
+.song .lauv1 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.game img {
+    border-radius: 80px;
+    padding-bottom: 15px;
+    height: 400px;
+    width: 800px;
+}
+
+.game .sa {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.game .sa1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: black; 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.color h4 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    padding-top: 17px;
+    color: #fff;
+}
+
+.color p {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+#background h3 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    padding: 80px 80px 50px 80px;
+}
+
+#background ul {
+    color: #fff;
+    text-align: center;
+    list-style: none;
+}
+
+#background ul li {
+    line-height: 60px;
+    font-size: 40px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(221,221,221);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer .info {
+    text-align: left;
+    padding-left: 15px;
+    display: inline;
+}
+
+footer .info p {
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 10px;
+    display: inline;
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+footer .icons {
+    display: inline;
+    float: right;
+    padding-top: 34px;
+    padding-right: 20px;
+}
+
+footer .icons a {
+    margin-left: 15px;
+}
